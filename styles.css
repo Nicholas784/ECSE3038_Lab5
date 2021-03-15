@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+}
+
+.tank-form{
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+.tank-form .form-data{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 20%;
+    font-weight: 700;
+}
+
+#submit-tank{
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    background-color: #00BFFF;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.cards {
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0 3px 9px 0 #736357;
+        box-shadow: 0 3px 9px 0 #736357;
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cards .card-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
